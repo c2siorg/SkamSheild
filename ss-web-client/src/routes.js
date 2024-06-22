@@ -1,4 +1,26 @@
+import {
+  BrowserRouter as Router,
+  Redirect,
+  Route,
+  Switch,
+} from "react-router-dom";
+
 import { Signin } from "./containers";
+
+export default function Routes() {
+
+  return (
+      <Router>
+        <AuthProvider>
+          <Switch>
+            <Route exact path="/">
+              <Signin />
+            </Route>
+          </Switch>
+        </AuthProvider>
+      </Router>
+  );
+}
 
 const PrivateRoute = ({ children, ...rest }) => {
     const { user, initializing } = useContext(AuthContext);
