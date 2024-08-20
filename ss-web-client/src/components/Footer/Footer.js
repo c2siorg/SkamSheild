@@ -9,7 +9,7 @@ export default function AppFooter() {
       <Typography variant="body2" color="textSecondary" align="center">
         {"Copyright © "}
         <Link color="inherit" target="_blank" rel="noopener" href="#1">
-          MIRACLE
+          SKAM SHIELD
         </Link>{" "}
         {new Date().getFullYear()}
         {"."}
