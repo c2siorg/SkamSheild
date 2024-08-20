@@ -1,6 +1,3 @@
-Here's a `README.md` for the Skam Shield Web Client project:
-
-````markdown
 # Skam Shield Web Client
 
 ## Introduction
@@ -16,11 +13,22 @@ The Skam Shield Web Client is a React.js web application designed for administra
 
 ## Screenshots
 
-### 1. Dashboard
+### 1. Login
+![Login](./demo/ss1.PNG)
 
-### 2. Report Review
+### 2. Dashboard
+![Dashboard](./demo/ss2.PNG)
 
-### 3. User Management
+### 3. Report Review
+![Review](./demo/ss3.PNG)
+![Review](./demo/ss4.PNG)
+
+### 4. Data Management
+![Data Manage](./demo/ss5.PNG)
+
+### 5. Reports Management
+![Reports Manage](./demo/ss6.PNG)
+
 
 ## Setup
 
@@ -36,7 +44,6 @@ The Skam Shield Web Client is a React.js web application designed for administra
    ```bash
    git clone https://github.com/c2siorg/SkamSheild.git
    ```
-````
 
 2. Navigate to the project directory:
 
@@ -73,7 +80,7 @@ The Skam Shield Web Client is a React.js web application designed for administra
 ## Usage
 
 1. **Login**: Access the web client using your admin credentials.
-2. **Dashboard**: Navigate to the dashboard to see an overview of reported content.
+2. **Dashboard**: Navigate to the dashboard to see an overview of the reported content.
 3. **Review Reports**: Click on reports to review details and manage their status.
 4. **Search and Filter**: Use search and filter options to efficiently manage reports.
 
