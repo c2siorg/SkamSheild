@@ -39,6 +39,7 @@ The **Skam Shield Web Client** is a React.js web application designed for admini
 - Configure Firebase and start the development server.
 
 **DEMO**
+
 ![DEMO](https://github.com/user-attachments/assets/2ec53b47-6524-476b-b24e-d65b00b13275)
 
 ### 3. Skam Shield Scam URL Checker Browser Extension
