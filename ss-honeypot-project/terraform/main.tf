@@ -1,0 +1,3 @@
+module "honeypots" {
+  source = "./"
+}
